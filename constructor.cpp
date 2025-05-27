@@ -7,8 +7,10 @@ class Student{
     int cls;
     double gpa;
 
+    //This is Constructor. it does not need any return type as function;
     Student(int r, int c, double g){
-        roll = r;
+        //Setting the vaule of class;
+        roll = r; 
         cls = c;
         gpa = g;
     }
@@ -18,6 +20,7 @@ class Student{
 
 int main()
 {
+    // Passing value to Student() Constructor;
     Student rahim(1, 7, 4.17);
     Student karim(4, 6, 4.67);
 
